@@ -10,12 +10,12 @@
       "dest": "/api/index.php"
   },
   {
-    "src": "styles.css",
-    "dest": "styles.css"
+    "href": "styles.css",
+    "dest": "./styles.css"
   },
   {
     "src": "server.php",
-    "dest": "server.php"
+    "dest": "./server.php"
   }
   ]
 }
