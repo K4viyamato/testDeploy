@@ -12,7 +12,7 @@
 
   {
     "method": "POST",
-    "url": "/api/server.php"
+    "dest": "/api/server.php"
   }
 
   ]
