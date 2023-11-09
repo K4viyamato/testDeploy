@@ -11,11 +11,11 @@
   },
   {
     "src": "styles.css",
-    "dest": "./styles.css"
+    "dest": "styles.css"
   },
   {
     "src": "server.php",
-    "dest": "./server.php"
+    "dest": "server.php"
   }
   ]
 }
