@@ -8,13 +8,15 @@
   {
       "src": "/(.*)",
       "dest": "/api/index.php"
+  },
+  {
+      "src": "/server\\.php",
+      "dest": "/api/server.php"
   }
 
-  ],
-
-
-  "rewrites": [
-    { "source": "/server.php", "destination": "/api/server.php" }
   ]
+
+
+  
   
 }
