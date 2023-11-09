@@ -10,9 +10,8 @@
       "dest": "/api/index.php"
     },
     {
-      "src": "/server.php",
-      "dest": "/server.php"
+      "src": "/api/(server|index)\\.php",
+      "dest": "/api/$1.php"
     }
-    
   ]
 }

@@ -13,7 +13,7 @@
 <body>
     <div class="login-container">
         <div class="login-card">
-            <form action="/api/server.php" method="post">
+            <form action="/server.php" method="post">
                 <h1>EUC Portal 2023</h1>
                 <div class="label">
                     <label for="name">First Name : </label>
