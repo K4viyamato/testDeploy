@@ -9,7 +9,11 @@
       "src": "/(.*)",
       "dest": "/api/index.php"
   },
-  
-  { "src": "/server.php", "methods": ["POST"], "dest": "/api/server.php" }
+
+  {
+    "src": "/(.*)",
+  "dest": "/api/server.php"
+    }
+
   ]
 }
