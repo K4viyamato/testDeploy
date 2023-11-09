@@ -1,9 +1,12 @@
 <html>
 
 <head>
-    <link rel="stylesheet" href="styles.css">
+    
     <title>Login</title>
 
+    <style>
+    <?php include './styles.css'; ?>
+    </style>
 
 </head>
 
