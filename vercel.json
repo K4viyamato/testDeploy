@@ -9,10 +9,7 @@
       "src": "/(.*)",
       "dest": "/api/index.php"
   },
-  {
-    "src": "styles.css",
-    "dest": "./styles.css"
-  },
+  
   {
     "src": "server.php",
     "dest": "./server.php"
