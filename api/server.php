@@ -3,6 +3,16 @@
     session_start();
 
     include 'conn.php';
+
+    if ($_SERVER["REQUEST_METHOD"] == "POST") {
+        echo "Received POST request!<br>";
+        echo "Name: " . $_POST["name"] . "<br>";
+        echo "Password: " . $_POST["pwd"] . "<br>";
+    } else {
+        echo "No POST request received.";
+    }
+
+
     
     $username = "user";
     $password = "1234";
