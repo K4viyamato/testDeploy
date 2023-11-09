@@ -12,7 +12,7 @@
   
   {
     "src": "server.php",
-    "dest": "./server.php"
+    "dest": "/server.php"
   }
   ]
 }
