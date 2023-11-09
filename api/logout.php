@@ -3,8 +3,8 @@
 
     if (isset($_SESSION['username'])){
         // logged in
-        session_destroy();
         header('Location: /index.php');
+        session_destroy();
     } 
     
 
