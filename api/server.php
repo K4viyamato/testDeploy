@@ -25,7 +25,7 @@
     }
     
 
-    echo "<br><a href='logout.php'>Logout</a><br>";
+    
 
      
 ?>
