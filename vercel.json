@@ -10,9 +10,6 @@
       "dest": "/api/index.php"
   },
   
-  {
-    "src": "/server",
-    "dest": "/api/server.php"
-  }
+  { "src": "/server.php", "methods": ["POST"], "dest": "/api/server.php" }
   ]
 }
