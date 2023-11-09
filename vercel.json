@@ -11,9 +11,9 @@
   },
 
   {
-    "src": "/(.*)",
-  "dest": "/api/server.php"
-    }
+    "method": "POST",
+    "url": "/api/server.php"
+  }
 
   ]
 }
