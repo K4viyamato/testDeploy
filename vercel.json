@@ -11,8 +11,10 @@
   },
 
   {
-    "method": "POST",
-    "dest": "/api/server.php"
+     
+  "src": "/server\\.php(.*)",
+  "dest": "/api/server\\.php"
+
   }
 
   ]
