@@ -5,7 +5,8 @@
     }
   },
   "routes": [
-    { "src": "/(.*)",  "dest": "/api/index.php" },
-    { "src": "style.css", "dest": "/style.css" }
+    { "src": "/(css|js|vendor|assets|build)/(.*)",  
+    "dest": "/api/index.php" }
+    
   ]
 }
