@@ -5,7 +5,7 @@
     <title>Login</title>
 
     <style>
-    <?php include './styles.css'; ?>
+    <?php include 'styles.css'; ?>
     </style>
 
 </head>
